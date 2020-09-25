@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "cross-env NODE_ENV=test env-cmd -f ./.env mocha",
     "watch": "cross-env NODE_ENV=development env-cmd -f ./.env nodemon app.js",
     "build-UI": "rm -rf build && cd ../client && npm run build --prod && cp -r build ../server/"
