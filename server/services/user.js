@@ -15,7 +15,7 @@ const registerUser = async (email, username, password) => {
 
     await newUser.save(); // save new user document to database
 
-    // await sendWelcomeEmail(email, username); // send welcome email
+    await sendWelcomeEmail(email, username); // send welcome email
 
     const token = newUser.generateAuthToken(); // create JWT token for response
 
