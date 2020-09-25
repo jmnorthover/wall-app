@@ -1,3 +1,4 @@
+const path = require('path');
 const express = require('express');
 const mongoose = require('mongoose');
 const userRouter = require('./routers/userRouter');
@@ -26,7 +27,7 @@ app.use(morgan('tiny'));
 app.use('/api/users', userRouter);
 app.use('/api/posts', postRouter);
 
-app.use(express.static('build'));
+app.use(express.static(path.join(__dirname, 'build')));
 
 app.listen(PORT, () => {
   console.log('Application started');
