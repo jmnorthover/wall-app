@@ -1,0 +1,10 @@
+.home {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 600px;
+  border: 1px solid gainsboro;
+  padding-bottom: 2rem;
+  padding-top: 0.5rem;
+  margin-top: 2rem;
+  text-align: center;
+}

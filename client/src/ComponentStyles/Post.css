@@ -1,0 +1,13 @@
+.post {
+  padding: 1rem;
+  border: 1px solid gainsboro;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 90%;
+  max-width: 600px;
+}
+
+.author {
+  margin-bottom: 0.5rem;
+}

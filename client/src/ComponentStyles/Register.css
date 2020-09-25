@@ -1,0 +1,26 @@
+.register input {
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  width: 200px;
+}
+
+.register button {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.error {
+  background-color: rgb(228, 92, 92);
+  padding: 0.5rem;
+  border-radius: 4px;
+  width: 200px;
+  margin: 0 auto;
+}
